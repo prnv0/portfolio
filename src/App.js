@@ -1,32 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import Home from './Components/Home';
+import Home from './Components/Home/Home';
+import About from './Components/About/About'
 import './App.css';
 
 function App() {
 
   return (
-    <div className="container">
-      <nav className='nav'>
-        <ul>
-          <li>
-            Home
-          </li>
-          <li>
-            About
-          </li>
-          <li>
-            Skills
-          </li>
-          <li>
-            Projects
-          </li>
-          <li>
-            Contact
-          </li>
-        </ul>
-      </nav>
+    <div className='main'>
+      <section id="home">
       <Home/>
+    </section>
+    <section id="about">
+      <About/>
+    </section>
     </div>
+    
   );
 }
 

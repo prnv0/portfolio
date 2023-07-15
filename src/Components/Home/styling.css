@@ -1,0 +1,88 @@
+.main{
+    background-image: url("../Assets/Home.svg");
+    background-size:contain;
+    background-position: right 0rem;
+    height: 120vh;
+    margin: 0rem;
+    background-repeat:no-repeat;
+    background-color: #eae7dc;
+ }
+ .nav{
+    display: flex;
+    flex: 1;
+    margin: auto;
+    width: 70%;
+    height: 2rem;
+    background-color: #808080;
+    border-radius: 25rem;
+    opacity: 85%;
+ }
+ .nav-option{
+    margin: auto;
+    text-align: center;
+    font-size: 75%;
+    font: bold;
+ }
+.hometext{
+    color: black;
+    margin-top: 15%;
+    margin-right: 50%;
+    font-size: 1.5rem;
+    font: bold;
+    text-align: center;
+};
+
+
+
+
+
+.subtext{
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 10%;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height: 1.5rem;
+    margin-bottom: 1.5rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 5s infinite;
+  }
+  
+  .first div {
+    background-color:#20a7d8;
+  }
+  .second div {
+    background-color:#CD921E;
+  }
+  .third div {
+    background-color:#c10528;
+  }
+  .fourth div {
+    background-color:#20a7d8;
+  }
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    15% {margin-top: 0;}
+    30% {margin-top: -3rem;}
+    45% {margin-top: -3rem;}
+    60% {margin-top: -6.25rem;}
+    75% {margin-top: -6.25rem;}
+    90% {margin-top: -9.5rem;}
+    100% {margin-top: -9.5rem;}
+  }
+

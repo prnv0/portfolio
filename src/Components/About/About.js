@@ -1,9 +1,9 @@
 import "./styling.css";
-function Home() {
+function About() {
     return (
-    <div className="hometext">
+    <div className="abouttext">
         <p>Hello</p>
     </div>
     );
 }
-export default Home;
+export default About;
