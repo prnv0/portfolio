@@ -1,7 +1,7 @@
 .main{
     background-image: url("../Assets/Home.svg");
-    background-size:contain;
-    background-position: right 0rem;
+    background-size:100vb cover;
+    background-position: right center;
     height: 120vh;
     margin: 0rem;
     background-repeat:no-repeat;
@@ -12,7 +12,7 @@
     flex: 1;
     margin: auto;
     width: 70%;
-    height: 2rem;
+    height: 4rem;
     background-color: #808080;
     border-radius: 25rem;
     opacity: 85%;
@@ -20,14 +20,15 @@
  .nav-option{
     margin: auto;
     text-align: center;
-    font-size: 75%;
+    font-size: 100%;
+    color: black;
     font: bold;
  }
 .hometext{
     color: black;
     margin-top: 15%;
     margin-right: 50%;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font: bold;
     text-align: center;
 };
@@ -46,9 +47,10 @@
     /* justify-content: center; */
 }
 .animation {
-    height:50px;
+    height: 3rem;
     overflow:hidden;
-    margin-left: 10%;
+    margin-right: 50%;
+    text-align: center;
   }
   
   .animation > div > div {

@@ -3,6 +3,7 @@ import homebg from '../Assets/Home.svg'
 function Home() {
     return (
     <div className="main">
+       
         <div className="nav">
             <div className="nav-option">
                 <a href="#about">About</a>
