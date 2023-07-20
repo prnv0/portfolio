@@ -5,3 +5,42 @@
 .about{
     margin:0%;
 }
+@media only screen and (max-width: 1200px) {
+    .aboutmain{
+        background-image: url("./Components/Assets/About.svg");
+        background-size:contain;
+        background-position: left; 
+        height:50vh;
+        margin: 0rem; 
+        background-repeat:no-repeat;
+        background-color: #eae7dc;
+    }
+    .aboutheading{
+        color: black;
+        font-size: 1rem;
+        position: relative;
+        top: 45%;
+        left: 5%;
+        };
+}
+@media only screen and (max-width: 1200px) {
+.skillsmain{
+    height:50vh;
+    }
+.skillsheading{
+    font-size: 1rem;
+}
+}
+@media only screen and (max-width: 1200px) {
+    .projectsmain{
+        height: 50vh;
+    }
+    .projectsheading{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .contactmain{
+        height: 50vh;
+    }
+}

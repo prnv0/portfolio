@@ -2,8 +2,9 @@ import "./styling.css";
 function About() {
     return (
         <div className="aboutmain">
+            <h1 className="aboutheading">About</h1>
             <div className="abouttext">
-                <p>Hello</p>
+            
             </div>
         </div>
     );

@@ -1,17 +1,17 @@
-.aboutmain{
-    background-image: url("../Assets/About.svg");
+.skillsmain{
+    background-image: url("../Assets/Skills.svg");
     background-size:contain;
-    background-position: left; 
+    background-position: right; 
     height:120vh;
     margin: 0rem; 
     background-repeat:no-repeat;
     background-color: #eae7dc;
 }
-.aboutheading{
+.skillsheading{
     color: black;
     font-size: 3rem;
     position: relative;
     top: 45%;
-    left: 5%
-};
-        
+    text-align: right;
+    right: 5%;
+    };

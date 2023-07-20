@@ -9,19 +9,19 @@ function Home() {
                 <a href="#about">About</a>
             </div>
             <div className="nav-option">
-                <a href="#Skills">Skills</a>
+                <a href="#skills">Skills</a>
             </div>
             <div className="nav-option">
-                <a href="#Projects">Projects</a>
+                <a href="#projects">Projects</a>
             </div>
             <div className="nav-option">
-                <a href="#Contact">Contact</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
-        <div className="hometext">
-            <p>Hi I'm</p>
-            <p>Pranav Satish</p>
-        </div>
+        <h1 className="hometext">
+            Hi I'm<br></br>
+            Pranav Satish
+        </h1>
         <div className="subtext">
             <section class="animation">
                 <div class="first"><div>Web Developer</div></div>

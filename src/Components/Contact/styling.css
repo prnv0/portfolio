@@ -1,0 +1,10 @@
+.contactmain{
+    background-image: url("../Assets/Contact.svg");
+    background-size:contain;
+    background-position: bottom; 
+    height:120vh;
+    margin: 0rem; 
+    background-repeat:no-repeat;
+    background-color: #eae7dc;
+}
+

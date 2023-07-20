@@ -1,0 +1,13 @@
+.projectsmain{
+    height:120vh;
+    margin: 0rem; 
+    background-repeat:no-repeat;
+    background-color: #eae7dc;
+}
+.projectsheading{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    };
