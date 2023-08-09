@@ -20,7 +20,7 @@ function Home() {
         </div>
         <h1 className="hometext">
             Hi I'm<br></br>
-            Pranav Satish
+            Pranav Sat
         </h1>
         <div className="subtext">
             <section class="animation">
