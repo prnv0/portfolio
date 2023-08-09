@@ -18,10 +18,10 @@ function Home() {
                 <a href="#contact">Contact</a>
             </div>
         </div>
-        <h1 className="hometext">
+        <div className="hometext">
             Hi I'm<br></br>
             Pranav Satish
-        </h1>
+        </div>
         <div className="subtext">
             <section class="animation">
                 <div class="first"><div>Web Developer</div></div>
