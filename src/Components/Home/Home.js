@@ -19,8 +19,8 @@ function Home() {
             </div>
         </div>
         <div className="hometext">
-            Hi I'm<br></br>
-            Pranav Satish
+            <h1>Hi I'm</h1>
+            <h1>Pranav Satish</h1>
         </div>
         <div className="subtext">
             <section class="animation">
