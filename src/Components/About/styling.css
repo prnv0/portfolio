@@ -23,18 +23,20 @@
 }
 .resume-button{
     font-family:'Press Start 2P';
-    border-style: none;
+    border-style:groove;
     margin-left: 60%;
     margin-top: 3%;
     height: 3rem;
     width: 8rem;
     color: black;
     background-color: #e85a4f;
+    border-color: black;
+    border-width: 0.1rem;
     border-radius: 0.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.605), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .resume-button:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.668);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.605), 0 6px 20px 0 rgba(0, 0, 0, 0.668);
 }
 .resume-button:active {
     background-size: 50% 50%;

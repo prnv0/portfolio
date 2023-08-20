@@ -19,8 +19,8 @@ function About() {
                 </h3>
             </div>
             <div>
-                <button className="resume-button">Resume</button>
-            </div>
+                <button className="resume-button">View Resumé</button>
+            </div> 
         </div>
     );
 }
