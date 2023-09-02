@@ -1,8 +1,7 @@
 import "./styling.css";
-import homebg from '../Assets/Home.svg'
 function Home() {
     return (
-    <div className="main">
+    <div className="homemain">
        
         <div className="nav">
             <div className="nav-option">
