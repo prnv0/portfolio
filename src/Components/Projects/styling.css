@@ -26,18 +26,42 @@
 .project{
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 6rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4rem;
     text-align: center;
-    width: 25rem;
-   
+    width: 23rem;
+   background-color: rgba(128, 128, 128, 0.614);
+   border-radius: 3rem;
+
 }
-.img{
+.projimg{
+    border-radius: 1rem;
     margin: auto;
-    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
 }
+.project>span{
+    margin:1rem;
+    font-size: 0.9rem;
+    line-height: 150%;
+}
+.project:hover{
+    transform: scale(1.1);
+    box-shadow: rgb(38, 57, 77) 10px 10px 10px 10px;
+    animation-name: highlight;
+    animation-duration: 2s;
+    background-color: rgba(118, 116, 116, 0.934); 
+}
+
 .colorus{
     content: url("../Assets/colorus.jpg");
+}
+.legalreader{
+    content: url("../Assets/LegalReader.png");
+}
+.todo{
+    content: url("../Assets/todo.png");
 }
