@@ -7,152 +7,28 @@
     margin: 0rem; 
     background-repeat:no-repeat;
     background-color: #eae7dc;
-}
-$basic-dark-color: #212121;
-$basic-light-color: #fff;
-$border-radius: 50%;
-$font-size: 25px;
-
-/* common styles !!! YOU DON'T NEED THEM */
-.container {
-  margin: 60px auto 0px auto;
-  text-align: center;
-  
-  h1 {
-    font: {
-      family: 'Roboto', sans-serif;
-      weight: 900;
-      size: 30px;
-    }
-    text-transform: uppercase;
-    color: $basic-dark-color;
-    letter-spacing: 3px;
-    
-    span {
-      display: inline-block;
-      
-      &:before,
-      &:after {
-        content: "";
-        display: block;
-        width: 34px;
-        height: 2px;
-        background-color: $basic-dark-color;
-        margin: 0px 0px 0px 2px;
-      }
-    }
-  }
-}
-
-.effect {
-  width: 100%;
-  padding: 50px 0px 70px 0px;
-  background-color: $basic-dark-color;
-  
-  h2 {
-    color: $basic-light-color;
-    font: {
-      family: 'Playfair Display', serif;
-      weight: 400;
-      size: 25px;
-    }
-    letter-spacing: 3px;
-  }
-  
-  &:nth-child(2) {
-    margin-top: 50px;
-  }
-  
-  &:nth-child(2n+1) {
-    background-color: $basic-light-color;
-    
-    h2 {
-      color: $basic-dark-color;
-    }
-  }
-  
-  &:nth-child(2n) {
-    
-     a {
-      color: $basic-light-color;
-      border-color: $basic-light-color;
-    }
-  }
-  
-  .buttons {
-    margin-top: 50px;
     display: flex;
+    gap: 3rem;
     justify-content: center;
-  }
 }
+.contact{
+    margin-top: 20%;
+    height: 15%;
+    width: auto;
 
-/* styles for a common effect !!!YOU NEED THEM */
-.effect {
-  /*display: flex; !!!uncomment this line !!!*/
-  
-  a {
-    text-decoration: none !important;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: $border-radius;
-    margin-right: 20px;
-    font-size: $font-size;
-    overflow: hidden;
-    position: relative;
-    color: $basic-dark-color; 
-    border: 2px solid $basic-dark-color; 
-    
-    i {
-      position: relative;
-      z-index: 3;
-    }
-    
-    &:last-child {
-      margin-right: 0px;
-    }
-    
-    &:before {
-      content: "";
-      display: inline-block;
-      height: 100%;
-      vertical-align: middle;
-    }
-    
-    i {
-      display: inline-block;
-      vertical-align: middle;
-    }
-  }
 }
-.effect.varrius {
-  
-    a {
-      transition: all 0.2s linear 0s;
-      
-      &:after {
-        content: "";
-        display: block;
-        width: 90%;
-        height: 90%;
-        top: -110%;
-        left: 0;
-        right: 0;
-        margin: auto;
-        position: absolute;
-        background-color: $basic-dark-color;
-        border-radius: $border-radius;
-      }
-      
-      &:hover {
-        color: $basic-light-color;
-        
-        &:after {
-          top: 5%;
-          transition: all 0.2s linear 0s;
-        }
-      }
-    }
-  }
+.mail{
+    content: url(../Assets/envelope-solid.svg);
+}
+.linkedin{
+    content: url(../Assets/linkedin.svg);
+}
+.github{
+    content: url(../Assets/github.svg);
+}
+.contactimg:hover{
+    border: 0.2rem;
+    border-style:dashed;
+    border-radius: 1rem;
+};
+
